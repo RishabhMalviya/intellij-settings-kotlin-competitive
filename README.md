@@ -1,12 +1,16 @@
-# intellij-settings-kotlin-competitive
+# IntelliJ Settings Configurations for Competitive Programming with Kotlin!
 Each `.zip` file contains a settings configuration that you can import into IntelliJ IDEA. These settings configurations aim to make it easier for you to write, test and submit Kotlin code to Competitive Programming contests on various websites. 
 
-**NOTE**: Importing these settings will overwrite any existing settings customizations you may have done in your IDE. **I strongly advise you to save you existing settings using `File` -> `Export Settings` before using any of these.** 
+**NOTE**: **I strongly advise you to save you existing settings using `File` -> `Export Settings` before using any of these.** Importing these settings will overwrite any existing settings customizations you may have done in your IDE. 
 
 ## How to Import the Settings
 Clone the repository, so that all the `.zip` files are readily available on your system. 
 
-Now, as you may have noticed, there is a different settings file for each website. So, if you are going to participate in a contest on CodeChef, for example, you would go to `File` -> `Import Settings`, and then select the `kotlin-codechef.zip` file to import the settings. And that's it!
+As you may have noticed, there is a different settings file for each website. So, if you are going to participate in a contest on CodeChef, for example, you would go to `File` -> `Import Settings`, and then select the `kotlin-codechef.zip` file to import the relevant settings. And that's it!
+
+When you want to start a contest on another website, import the relevant `.zip` file before starting.
+
+When you're done and you want to bring back your original environment, import the file that you generated when you first exported your existing settings *as was advised at the beginning of the README*.
 
 ## How to Use the New Setting in your Local IDE
 **TODO**: Since the exact design - the UX, so to speak - for each websites' settings configuration is different, I will explain how to use your newly configured IDE in a separate article, to which I will put a link here very soon.
