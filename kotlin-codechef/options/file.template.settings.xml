@@ -1,0 +1,31 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <internal_templates>
+      <template name="Kotlin File.kt" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Kotlin Class.kt" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
+    <j2ee_templates>
+      <template name="Activity.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="AndroidManifest.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="AnnotationType.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Application.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Broadcast_Receiver.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Class.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="default.properties" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Enum.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Fragment.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Interface.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="layoutResourceFile.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="layoutResourceFile_vertical.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Maven Profiles.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Maven Project.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Maven Settings.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="navigationResourceFile.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Remote_Interface.aidl" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="resourceFile.xml" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Service.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="Singleton.java" reformat="true" live-template-enabled="false" enabled="false" />
+      <template name="valueResourceFile.xml" reformat="true" live-template-enabled="false" enabled="false" />
+    </j2ee_templates>
+  </component>
+</application>
