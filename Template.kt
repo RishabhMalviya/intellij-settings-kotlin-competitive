@@ -1,13 +1,15 @@
 import java.io.PrintWriter
 import java.util.StringTokenizer
+import kotlin.math.pow
 
-//@JvmField val INPUT = File("input.txt").inputStream()
-//@JvmField val OUTPUT = File("output.txt").outputStream()
-@JvmField val INPUT = System.`in`
-@JvmField val OUTPUT = System.out
+//private val INPUT = File("input.txt").inputStream()
+//private val OUTPUT = File("output.txt").outputStream()
+private val INPUT = System.`in`
+private val OUTPUT = System.out
 
-@JvmField val bufferedReader = INPUT.bufferedReader()
-@JvmField val outputWriter = PrintWriter(OUTPUT, false)
+private val bufferedReader = INPUT.bufferedReader()
+private val outputWriter = PrintWriter(OUTPUT, false)
+
 private fun readLn() = bufferedReader.readLine()!!
 
 private fun readList() = readLn().split(' ')
@@ -46,14 +48,13 @@ class ${NAME} {
     }
 }
 
-fun PrintWriter.solve() {
-    val solution = ${NAME}()
+fun main(args: Array<String>) {
+    val solution = Candies()
 
-    repeat((1..readInt()).count()) {
-        //TODO: Read in each Test Case
-
-        kotlin.io.println(solution.solveTestCase())
+    repeat(readInt()) {
+        outputWriter.println(solution.solveTestCase())
     }
-}
 
-fun main(args: Array<String>) { outputWriter.solve(); outputWriter.flush() }
+    outputWriter.flush()
+
+}
