@@ -9,7 +9,6 @@ private val OUTPUT = System.out
 
 private val bufferedReader = INPUT.bufferedReader()
 private val outputWriter = PrintWriter(OUTPUT, false)
-
 private fun readLn() = bufferedReader.readLine()!!
 
 private fun readList() = readLn().split(' ')
@@ -49,12 +48,13 @@ class ${NAME} {
 }
 
 fun main(args: Array<String>) {
-    val solution = Candies()
+    val solution = ${NAME}()
 
     repeat(readInt()) {
+        //TODO: Read in each Test Case
+
         outputWriter.println(solution.solveTestCase())
     }
 
     outputWriter.flush()
-
 }
