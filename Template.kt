@@ -1,6 +1,7 @@
 import java.io.PrintWriter
 import java.util.StringTokenizer
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 //private val INPUT = File("input.txt").inputStream()
 //private val OUTPUT = File("output.txt").outputStream()
@@ -47,14 +48,14 @@ class ${NAME} {
     }
 }
 
-fun main(args: Array<String>) {
-    val solution = ${NAME}()
-
+fun main(args: Array<String>) { 
     repeat(readInt()) {
         //TODO: Read in each Test Case
 
+        val solution = ${NAME}()
+
         outputWriter.println(solution.solveTestCase())
     }
-
-    outputWriter.flush()
+    
+    outputWriter.flush() 
 }
