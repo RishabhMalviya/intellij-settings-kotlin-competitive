@@ -48,14 +48,15 @@ class ${NAME} {
     }
 }
 
-fun main(args: Array<String>) { 
+fun main(args: Array<String>) {
     repeat(readInt()) {
         //TODO: Read in each Test Case
 
-        val solution = ${NAME}()
-
-        outputWriter.println(solution.solveTestCase())
+        outputWriter.println(
+            ${NAME}()
+            .solveTestCase()
+        )
     }
-    
-    outputWriter.flush() 
+
+    outputWriter.flush()
 }
