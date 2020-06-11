@@ -40,7 +40,7 @@ private fun readDoubleArray(n: Int = 0) =
 private fun Int.modPositive(other: Int): Int = if (this % other < 0) ((this % other) + other) else (this % other)
 
 
-class ${NAME} {
+private class ${NAME} {
     fun solveTestCase(): Boolean {
         //TODO: Solve the question
 
@@ -54,7 +54,7 @@ fun main(args: Array<String>) {
 
         outputWriter.println(
             ${NAME}()
-            .solveTestCase()
+                .solveTestCase()
         )
     }
 
